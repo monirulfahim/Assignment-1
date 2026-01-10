@@ -276,3 +276,41 @@ button:hover{
     margin-left: 100px;
     font-weight: bold;
 }
+#footer-section{
+    max-width: 1600px;
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer-image{
+    margin-right: 100px;
+}
+
+.footer-image h6{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+
+}
+.footer-image ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+
+}
+.footer-image ul img{
+    border-radius: 50%;
+
+}
+.footer-copyright{
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
