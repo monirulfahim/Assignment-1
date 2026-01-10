@@ -196,3 +196,46 @@ button:hover{
     max-width: 1360px;
     margin: 0 auto;
 }
+#brain-section{
+    max-width: 1600px;
+    padding: 120px;
+}
+.brain-container{
+    max-width: 1360px;
+    display: flex;
+    gap: 60px;
+  
+}
+.brain-content{
+      margin: 102px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+}
+.brain-content h6{
+    font-size: 20px;
+    color: #30B868;
+}
+.brain-content h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.brain-content p{
+    font-size: 20px;
+    color: #627382;
+}
+.brain-content ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+.brain-content ul li{
+    display: flex;
+    gap: 5px;
+}
+.brain-container img{
+    max-width:600px;
+    max-height: 600px;
+}
